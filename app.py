@@ -32,7 +32,7 @@ def main():
         print(Result.FAIL)
         return
     
-    action, seat_identifier, num_seats = sys.argv[1], sys.argv[2], int(sys.argv[3][0])
+    action, seat_identifier, num_seats = sys.argv[1], sys.argv[2], int(sys.argv[3]) # Loading command and seat info from sys args
     row, seat = ord(seat_identifier[0].upper()) - ord('A'), int(seat_identifier[1])
 
     reserved_seats = load_reserved_seats()
