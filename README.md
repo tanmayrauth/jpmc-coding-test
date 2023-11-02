@@ -12,14 +12,13 @@
 ## Run Program
 
 To run the application, execute `app.py` in a Python environment:
+- To book a seat: 
+- To cancel a reservation:
 
 ```bash
-python3 app.py
+python3 app.py BOOK A1 2
+python3 app.py CANCEL A1 2
 ```
-
-## Commands
-- To book a seat: BOOK A1 2
-- To cancel a reservation: CANCEL A1 2
 
 
 ## Unit Tests
