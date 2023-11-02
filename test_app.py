@@ -1,5 +1,10 @@
 import unittest
 import subprocess
+from helper import save_reserved_seats
+
+
+save_reserved_seats({})
+
 
 class TestApp(unittest.TestCase):
 
