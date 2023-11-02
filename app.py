@@ -5,6 +5,16 @@ from commands import get_command
 
 
 def run_command(command, row, seat, num_seats, reserved_seats):
+    """
+    Executes the specified command (BOOK or CANCEL) based on the provided arguments.
+    
+    Args:
+        command (function): The command function (BOOK or CANCEL) to execute.
+        row (int): The row number of the seat.
+        seat (int): The seat number within the row.
+        num_seats (int): The number of seats to book or cancel.
+        reserved_seats (dict): A dictionary representing the current reserved seats.
+    """
 
     if not command:
         print(Result.FAIL)
