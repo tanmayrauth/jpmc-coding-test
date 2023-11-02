@@ -1,7 +1,7 @@
 import unittest
 import subprocess
 
-class TestFlightBookingSystem(unittest.TestCase):
+class TestApp(unittest.TestCase):
 
     def test_booking_system(self):
         test_cases = [
