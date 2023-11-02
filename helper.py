@@ -1,6 +1,6 @@
 import os
 import json
-from constants import SEAT_FILE_PATH, SEAT_ROWS, SEATS_IN_ROW, Command, Result
+from constants import SEAT_FILE_PATH, SEAT_ROWS, SEATS_IN_ROW
 
 
 def load_reserved_seats():
